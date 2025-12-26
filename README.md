@@ -11,12 +11,19 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 **Performance Optimization**: Analyze kinematic and dynamic manipulability to ensure best force transmission and safe movements within the boundary of human hand range of motion.
 
 ## Abbreviations used in this README 
+
 **DIP** Distal Inter-Phalangeal  
+
 **HES** Hand Exo-Skeleton  
-**MCP** Meta-Carpo-Phalangeal  
+
+**MCP** Meta-Carpo-Phalangeal
+
 **P** Prismatic joint 
+
 **PIP** Proximal Inter-Phalangeal 
+
 **R** Revolute joint 
+
 **ROM** Range of Motion 
 
 ## Project Structure
@@ -44,14 +51,14 @@ differential_robot/
 ```
 
 ##  System Architecture
-1. ### Human Hand Modeling
+ ### 1. Human Hand Modeling
 *** Anatomical Structure:**** 5 digits with varying degrees of freedom (DOF)
 
 4 fingers (index, middle, ring, little): 4 phalanges, 3 articulations each
 
 Thumb: 3 phalanges, 4 articulations
 
-***Joint Constraints:** Natural Range of Motion (ROM) limits for each joint
+**Joint Constraints:** Natural Range of Motion (ROM) limits for each joint
 Natural ROM boundaries ensuring patient safety
 
 
@@ -66,8 +73,7 @@ Natural ROM boundaries ensuring patient safety
 **Kinematic Chains:** Denavit-Hartenberg (DH) parameterization for forward/inverse kinematics
 
 **Dynamic Modeling:** Euler-Lagrange formulation including stiffness and damping factors
-
-2. ### Exoskeleton Design
+### 2. Exoskeleton Design
 -**MCP Joint Mechanism:** **(P3RP2R)** closed-loop chain for flexion/extension and abduction/adduction
 
 -**PIP Joint Mechanism:** Four-bar linkage **(4R)** kinematic chain for flexion/extension
@@ -81,10 +87,58 @@ Natural ROM boundaries ensuring patient safety
 * Misalignment compensation for human-robot axes
 
 * Normal force application on fingers
-**MCP Joint Mechanism:** (P3RP2R) closed-loop chain for flexion/extension and abduction/adduction
+## Mathematical Framework
 
-**PIP Joint Mechanism:** Four-bar linkage (4R) kinematic chain for flexion/extension
+### Kinematic Analysis
+**DH Parameters:** Complete tables for human fingers and exoskeleton joints
 
+**Transformation Matrices:** Homogeneous transformations for position/orientation
+
+**Inverse Kinematics:** Geometric methods with physiological angle constraints
+
+**Loop Closure Equations:** For MCP and PIP closed-chain mechanisms
+
+## Dynamic Analysis
+**Energy Formulations:** Kinetic, potential (gravitational + elastic), and dissipation
+
+**Motion Equations:** Euler-Lagrange derivation with joint torques
+
+**Virtual Work Principle:** Force/torque transmission analysis
+
+**Manipulability Measures:** Local and global kinematic/dynamic performance metrics
+
+## CAD Implementation
+
+### Human Hand Model
+
+Complete 3D assembly with natural joint constraints
+
+##Exoskeleton Model
+Dimensional Parameters: Optimized for index finger (see Table 3.7)
+
+Key Components:
+
+MCP closed-loop chain assembly
+
+PIP four-bar mechanism
+
+Cable routing system
+## Performance Analysis
+### Kinematic Manipulability
+Velocity transmission capability from actuated joints to human joints
+
+Global kinematic manipulability measure (GKM) for design evaluation
+
+Configuration-space performance mapping
+
+### Dynamic Manipulability
+Acceleration transmission capability
+
+Torque scaling considerations
+### Optimization Using Genetic algorithm
+
+Global dynamic manipulability assessment
+Adjustable attachment points
 This design of the exoskeleton include only theindex fingure and can be augmented to actuarte the other fingures and the to  the MCP and PIP joint actua :
 ```bash
 cd ~/catkin_ws/src
