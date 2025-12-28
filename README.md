@@ -25,31 +25,13 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 
 ##  System Architecture
  ### 1. Human Hand Modeling
-*** Anatomical Structure:**** 5 digits with varying degrees of freedom (DOF)
+  ** 5 digits, anatomically accurate DOF
 
-4 fingers (index, middle, ring, little): 4 phalanges, 3 articulations each
+  ** Full ROM constraints, intra-finger & inter-finger coupling
 
-Thumb: 3 phalanges, 4 articulations
+ ** DH-based kinematics and Euler-Lagrange dynamics
 
-<p align="center">
- <img src="Images/Kinematic chain of the index and thumb fingers.jpg" width="400">
-</p>
-
-**Joint Constraints:** Natural Range of Motion (ROM) limits for each joint
-Natural ROM boundaries ensuring patient safety
-
-
-| Joint     | Flexion | Extension | Abduction/Adduction |
-|-----------|---------|-----------|---------------------|
-| Index MCP |   90°   |  30°-40°  |          60°        |
-| Index PIP |   110   |    0°     |          0°         |
-| Thumb MCP | 75°-80° |    0°     |          5°         |
-
-
-
-**Kinematic Chains:** Denavit-Hartenberg (DH) parameterization for forward/inverse kinematics
-
-**Dynamic Modeling:** Euler-Lagrange formulation including stiffness and damping factors
+ ** Stiffness & damping modeling for impaired joints
 <p align="center">
 
   <img src="Images/Human Hand CAD1.PNG" width="300" height="300" style="margin-right: 20px;">
@@ -58,19 +40,13 @@ Natural ROM boundaries ensuring patient safety
 
 
 ### 2. Exoskeleton Design
--**MCP Joint Mechanism:** **(P3RP2R)** closed-loop chain for flexion/extension and abduction/adduction
+| Joint                       | Mechanism         | Function          |
+| ---------------------------- | ------------- | --------------------- |
+| **MCP**                     | P3RP2R closed chain    |	Flex/Ext + Abd/Add       |
+| **PIP**                   | 4R closed chain        | closed chain	Flex/Ext        |
+| **DIP**                | 	Biomechanically coupled | Passive        |
 
--**PIP Joint Mechanism:** Four-bar linkage **(4R)** kinematic chain for flexion/extension
 
-**Design Features:**
-
-* Under-actuated Cable-driven transmission
-
-* Misalignment compensation for human-robot axes
-* 
-* Normal force application on fingers
-
-* 
 ## Modeling and Analysis
 
 ### Kinematic and Dynamics
