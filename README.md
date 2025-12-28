@@ -45,7 +45,11 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 | **MCP**                     | P3RP2R closed chain    |	Flex/Ext + Abd/Add       |
 | **PIP**                   | 4R closed chain        | closed chain	Flex/Ext        |
 | **DIP**                | 	Biomechanically coupled | Passive        |
+<p align="center">
 
+  <img src="Images/Human Hand CAD1.PNG" width="300" height="300" style="margin-right: 20px;">
+  <img src="Images/Human Hand CAD2.PNG" width="300" height="300">
+</p>
 
 ## Modeling and Analysis
 
