@@ -34,49 +34,21 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 </p>
 
 ### 2. Exoskeleton Design
-<table style="width: 100%; border: none; border-collapse: collapse;">
-  <tr>
-    <!-- Left cell for table -->
-    <td style="border: none; padding-right: 20px; vertical-align: top; width: 50%;">
-      <table style="border: 1px solid #ddd; border-collapse: collapse; width: 100%;">
-        <tr>
-          <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2;">Joint</th>
-          <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2;">Mechanism</th>
-          <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2;">Function</th>
-        </tr>
-        <tr>
-          <td style="border: 1px solid #ddd; padding: 10px;"><strong>MCP</strong></td>
-          <td style="border: 1px solid #ddd; padding: 10px;">P3RP2R closed chain</td>
-          <td style="border: 1px solid #ddd; padding: 10px;">Flex/Ext + Abd/Add</td>
-        </tr>
-        <tr>
-          <td style="border: 1px solid #ddd; padding: 10px;"><strong>PIP</strong></td>
-          <td style="border: 1px solid #ddd; padding: 10px;">4R closed chain</td>
-          <td style="border: 1px solid #ddd; padding: 10px;">Flex/Ext</td>
-        </tr>
-        <tr>
-          <td style="border: 1px solid #ddd; padding: 10px;"><strong>DIP</strong></td>
-          <td style="border: 1px solid #ddd; padding: 10px;">Biomechanically coupled</td>
-          <td style="border: 1px solid #ddd; padding: 10px;">Passive</td>
-        </tr>
-      </table>
-    </td>
-    
-    <td style="border: none; vertical-align: middle; width: 50%; text-align: center;">
-      <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.png" width="380" style="max-width: 100%;">
-    </td>
-  </tr>
-</table>
+
 | Joint                       | Mechanism         | Function          |
 | ---------------------------- | ------------- | --------------------- |
 | **MCP**                     | P3RP2R closed chain    |	Flex/Ext + Abd/Add       |
 | **PIP**                   | 4R closed chain        | closed chain	Flex/Ext        |
 | **DIP**                | 	Biomechanically coupled | Passive        |
 
-  </td>
-<td>
-  <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.png" width="300"  style="margin-right: 20px;">
-</td>
+
+## MCP exoskeleton kinematic chain
+
+<p align="center">
+
+ <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.png" width="380"  style="margin-right: 20px;">  
+</p>
+
 
 
 
@@ -132,36 +104,3 @@ The optimizatipon of link ligth is done using **Genetic algorithms**guided by ma
 | L2=19.61                   | L8=30        | 
 | L3=41.83               |       | 
 | L4=17.4               | 	 | 
-<table style="width: 100%; border: none; border-collapse: collapse;">
-  <tr>
-    <!-- Left cell for table -->
-    <td style="border: none; padding-right: 20px; vertical-align: top; width: 50%;">
-      <table style="border: 1px solid #ddd; border-collapse: collapse; width: 100%;">
-        <tr>
-          <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2;">Joint</th>
-          <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2;">Mechanism</th>
-          <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f2f2f2;">Function</th>
-        </tr>
-        <tr>
-          <td style="border: 1px solid #ddd; padding: 10px;"><strong>MCP</strong></td>
-          <td style="border: 1px solid #ddd; padding: 10px;">P3RP2R closed chain</td>
-          <td style="border: 1px solid #ddd; padding: 10px;">Flex/Ext + Abd/Add</td>
-        </tr>
-        <tr>
-          <td style="border: 1px solid #ddd; padding: 10px;"><strong>PIP</strong></td>
-          <td style="border: 1px solid #ddd; padding: 10px;">4R closed chain</td>
-          <td style="border: 1px solid #ddd; padding: 10px;">Flex/Ext</td>
-        </tr>
-        <tr>
-          <td style="border: 1px solid #ddd; padding: 10px;"><strong>DIP</strong></td>
-          <td style="border: 1px solid #ddd; padding: 10px;">Biomechanically coupled</td>
-          <td style="border: 1px solid #ddd; padding: 10px;">Passive</td>
-        </tr>
-      </table>
-    </td>
-    
-    <td style="border: none; vertical-align: middle; width: 50%; text-align: center;">
-      <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.png" width="380" style="max-width: 100%;">
-    </td>
-  </tr>
-</table>
