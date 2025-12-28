@@ -16,19 +16,12 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 ## Abbreviations 
 
 **DIP**_Distal Inter-Phalangeal  
-
 **HES**_Hand Exo-Skeleton  
-
 **MCP**_Meta-Carpo-Phalangeal
-
 **P**_Prismatic joint 
-
 **PIP**_Proximal Inter-Phalangeal 
-
 **R**_Revolute joint 
-
 **ROM**_Range of Motion 
-
 
 ##  System Architecture
  ### 1. Human Hand Modeling
@@ -53,6 +46,13 @@ Natural ROM boundaries ensuring patient safety
 **Kinematic Chains:** Denavit-Hartenberg (DH) parameterization for forward/inverse kinematics
 
 **Dynamic Modeling:** Euler-Lagrange formulation including stiffness and damping factors
+<p align="center">
+  <img src="Images/Kinematic chain of the index and thumb fingers.jpg" width="250">
+  <img src="Images/Human Hand CAD1.png" width="250">
+  <img src="Images/Human Hand CAD2.png" width="250">
+</p>
+
+
 ### 2. Exoskeleton Design
 -**MCP Joint Mechanism:** **(P3RP2R)** closed-loop chain for flexion/extension and abduction/adduction
 
