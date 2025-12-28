@@ -1,4 +1,4 @@
-<img width="222" height="81" alt="image" src="https://github.com/user-attachments/assets/44689107-e928-4c0c-bf00-ed8bce2d7f36" /># Hand-Exoskeleton Design, Modeling and Optimization
+# Hand-Exoskeleton Design, Modeling and Optimization
 This repository presents the design and modeling of a **rehabilitation hand exoskeleton** aimed at restoring finger movements in post-stroke patients. It includes comprehensive kinematic and dynamic analysis of both the human hand fingers and the proposed design of the exoskeleton. The CAD design was conducted using **SolidWorks** and then exported to **MATLAB**, and the simulation was conducted with  **Simscape**.The repositpry also combines **manipulability** analysis and optomization using **Genetic Algorithms** to achive safety in human-robot interaction.
 
 <p align="center">
@@ -42,9 +42,9 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 | **DIP**                | 	Biomechanically coupled | Passive        |
 <p align="center">
 
-  <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.jpg" width="300"  style="margin-right: 20px;">
-  <img src="Images/MCP exoskeleton kinematic chain.jpg" width="300"  >
-  <img src="Images/PIP exoskeleton kinematic chain.jpg" width="300" >
+  <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.jpg" width="250"  style="margin-right: 20px;">
+  <img src="Images/MCP exoskeleton kinematic chain.png" width="250"  >
+  <img src="Images/PIP exoskeleton kinematic chain.png" width="250" >
 
 </p>
 
@@ -67,6 +67,8 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 **Virtual Work Principle:** Force/torque transmission analysis
 
 **Manipulability Measures:** Local and global kinematic/dynamic performance metrics
+
+
 **The developed CAD model of the human hand** 
 <p align="center">
 
