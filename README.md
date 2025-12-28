@@ -19,8 +19,11 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 **HES**_Hand Exo-Skeleton  
 **MCP**_Meta-Carpo-Phalangeal
 **P**_Prismatic joint 
+
 **PIP**_Proximal Inter-Phalangeal 
+
 **R**_Revolute joint 
+
 **ROM**_Range of Motion 
 
 ##  System Architecture
@@ -32,11 +35,6 @@ This repository presents the design and modeling of a **rehabilitation hand exos
  ** DH-based kinematics and Euler-Lagrange dynamics
 
  ** Stiffness & damping modeling for impaired joints
-<p align="center">
-
-  <img src="Images/Human Hand CAD1.PNG" width="300" height="300" style="margin-right: 20px;">
-  <img src="Images/Human Hand CAD2.PNG" width="300" height="300">
-</p>
 
 
 ### 2. Exoskeleton Design
@@ -70,37 +68,30 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 **Virtual Work Principle:** Force/torque transmission analysis
 
 **Manipulability Measures:** Local and global kinematic/dynamic performance metrics
+**The developed CAD model of the human hand** 
+<p align="center">
+
+  <img src="Images/Human Hand CAD1.PNG" width="300" height="300" style="margin-right: 20px;">
+  <img src="Images/Human Hand CAD2.PNG" width="300" height="300">
+</p>
+
+**The CAD model of the hand exoskeleton showing the design for the MCP and PIP closed-loop chains**
+<p align="center">
+
+  <img src="Images/CAD Hand EXoskeleton.PNG" width="300" style="margin-right: 20px;">
+</p>
+
 
 ## Manipulability Evaluation
 Manipulability measures how well the exoskeleton can move and apply force to the finger.
 
 High manipulability → smoother motion , lower motor torque and safer rehabilitation. 
 The optimizatipon of link ligth is done using ** Genetic algorithms**guided by manipulability analysis. 
+<p align="center">
 
-##  Topics Summary
-
-| Topic                        | Type          | Published By          |
-| ---------------------------- | ------------- | --------------------- |
-| `/scan`                      | LaserScan     | simulated_lidar       |
-| `/cmd_vel`                   | Twist         | maze_navigator        |
-| `/robot_path`                | nav_msgs/Path | maze_navigator        |
-| `/visualization_marker`      | Marker        | maze_marker_publisher |
-| TF `world → base_link`       | TF            | maze_navigator        |
-| TF `base_link → hokuyo_link` | TF            | simulated_lidar       |
-
-
-## Navigation Behavior and Control algorithm
-The Control algorithm used to escape the maze can be described by these rules:
-* Stops & turns if obstacle < **0.5 m** in front
-* Right-hand **wall following** (0.3 m distance)
-* Free-space turning preference
-* Odometry simulated from `/cmd_vel`
-* Path recorded continuously
-## Demo
-
-*Autonomous navigation with LiDAR scanning, obstacle avoidance, and path planning in simulated maze environment.*
-
-![Robot Navigation Demo](differential_robot/media/Demo.gif)
+  <img src="Images/Human Hand CAD1.PNG" width="300" height="300" style="margin-right: 20px;">
+  <img src="Images/Human Hand CAD2.PNG" width="300" height="300">
+</p>
 
 ## Project Structure
 
