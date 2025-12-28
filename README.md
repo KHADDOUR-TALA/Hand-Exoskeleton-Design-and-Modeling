@@ -16,12 +16,12 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 ## Abbreviations 
 
 **DIP**_Distal Inter-Phalangeal  
-**HES**_Hand Exo-Skeleton.
-**MCP**_Meta-Carpo-Phalangeal.
-**P**_Prismatic joint. 
-**PIP**_Proximal Inter-Phalangeal. 
-**R**_Revolute joint. 
-**ROM**_Range of Motion. 
+**HES**_Hand Exo-Skeleton
+**MCP**_Meta-Carpo-Phalangeal
+**P**_Prismatic joint
+**PIP**_Proximal Inter-Phalangeal
+**R**_Revolute joint 
+**ROM**_Range of Motion
 
 ##  System Architecture
  ### 1. Human Hand Modeling
@@ -33,6 +33,11 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 
  *** Stiffness & damping modeling for impaired joints
 
+<p align="center">
+
+  <img src="Images/Kinematic chain of the index and thumb fingers.jpg" width="250">
+  
+</p>
 
 ### 2. Exoskeleton Design
 | Joint                       | Mechanism         | Function          |
@@ -42,10 +47,8 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 | **DIP**                | 	Biomechanically coupled | Passive        |
 <p align="center">
 
-  <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.jpg" width="250"  style="margin-right: 20px;">
-  <img src="Images/MCP exoskeleton kinematic chain.png" width="250"  >
-  <img src="Images/PIP exoskeleton kinematic chain.png" width="250" >
-
+  <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.png" width="250"  style="margin-right: 20px;">
+  
 </p>
 
 ## Modeling and Analysis
@@ -72,8 +75,8 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 **The developed CAD model of the human hand** 
 <p align="center">
 
-  <img src="Images/Human Hand CAD1.PNG" width="200" height="200" style="margin-right: 20px;">
-  <img src="Images/Human Hand CAD2.PNG" width="200" height="200">
+  <img src="Images/Human Hand CAD1.PNG" width="200" height="150" style="margin-right: 20px;">
+  <img src="Images/Human Hand CAD2.PNG" width="200" height="150">
 </p>
 
 **The CAD model of the hand exoskeleton showing the design for the MCP and PIP closed-loop chains**
@@ -81,6 +84,7 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 
   <img src="Images/CAD Hand EXoskeleton.png" width="400">
 </p>
+
 
 
 ## Manipulability Evaluation
