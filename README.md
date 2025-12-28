@@ -15,27 +15,21 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 
 ## Abbreviations 
 
-**DIP**_Distal Inter-Phalangeal  
-**HES**_Hand Exo-Skeleton
-**MCP**_Meta-Carpo-Phalangeal
-**P**_Prismatic joint
-**PIP**_Proximal Inter-Phalangeal
-**R**_Revolute joint 
-**ROM**_Range of Motion
+**DIP**_Distal Inter-Phalangeal  **HES**_Hand Exo-Skeleton **MCP**_Meta-Carpo-Phalangeal  **P**_Prismatic joint  **PIP**_Proximal Inter-Phalangeal   **R**_Revolute joint  **ROM**_Range of Motion 
 
 ##  System Architecture
  ### 1. Human Hand Modeling
-  *** 5 digits, anatomically accurate DOF
+  - 5 digits, anatomically accurate DOF
 
-  *** Full ROM constraints, intra-finger & inter-finger coupling
+  - Full ROM constraints, intra-finger & inter-finger coupling
 
- *** DH-based kinematics and Euler-Lagrange dynamics
+  - DH-based kinematics and Euler-Lagrange dynamics
 
- *** Stiffness & damping modeling for impaired joints
+  - Stiffness & damping modeling for impaired joints
 
 <p align="center">
 
-  <img src="Images/Kinematic chain of the index and thumb fingers.jpg" width="250">
+  <img src="Images/Kinematic chain of the index and thumb fingers.jpg" width="300">
   
 </p>
 
@@ -47,7 +41,7 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 | **DIP**                | 	Biomechanically coupled | Passive        |
 <p align="center">
 
-  <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.png" width="250"  style="margin-right: 20px;">
+  <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.png" width="300"  style="margin-right: 20px;">
   
 </p>
 
@@ -75,8 +69,8 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 **The developed CAD model of the human hand** 
 <p align="center">
 
-  <img src="Images/Human Hand CAD1.PNG" width="200" height="150" style="margin-right: 20px;">
-  <img src="Images/Human Hand CAD2.PNG" width="200" height="150">
+  <img src="Images/Human Hand CAD1.PNG" width="200" height="200" style="margin-right: 20px;">
+  <img src="Images/Human Hand CAD2.PNG" width="200" height="200">
 </p>
 
 **The CAD model of the hand exoskeleton showing the design for the MCP and PIP closed-loop chains**
@@ -90,8 +84,10 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 ## Manipulability Evaluation
 Manipulability measures how well the exoskeleton can move and apply force to the finger.
 
-High manipulability → smoother motion , lower motor torque and safer rehabilitation. 
-The optimizatipon of link ligth is done using ** Genetic algorithms**guided by manipulability analysis. 
+High manipulability **→** smoother motion , lower motor torque and safer rehabilitation. 
+The optimizatipon of link ligth is done using **Genetic algorithms**guided by manipulability analysis. 
+
+
 **Optimization Results**
 
 | MCP Chain(mm)                       | PIP Chain(mm)          |
