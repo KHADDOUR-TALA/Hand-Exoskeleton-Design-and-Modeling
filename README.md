@@ -29,21 +29,32 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 
 <p align="center">
 
-  <img src="Images/Kinematic chain of the index and thumb fingers.jpg" width="300">
+  <img src="Images/Kinematic chain of the index and thumb fingers.jpg" width="400">
   
 </p>
 
 ### 2. Exoskeleton Design
+
+<table>
+  <tr>
+    <td>
+
+     
 | Joint                       | Mechanism         | Function          |
 | ---------------------------- | ------------- | --------------------- |
 | **MCP**                     | P3RP2R closed chain    |	Flex/Ext + Abd/Add       |
 | **PIP**                   | 4R closed chain        | closed chain	Flex/Ext        |
 | **DIP**                | 	Biomechanically coupled | Passive        |
-<p align="center">
 
-  <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.png" width="300"  style="margin-right: 20px;">
-  
-</p>
+    </td>
+    <td>
+      <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.png" width="300"  style="margin-right: 20px;">
+    </td>
+  </tr>
+</table>
+
+
+
 
 ## Modeling and Analysis
 
