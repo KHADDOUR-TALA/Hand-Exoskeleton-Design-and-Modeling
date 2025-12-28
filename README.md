@@ -43,8 +43,8 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 <p align="center">
 
   <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.jpg" width="300"  style="margin-right: 20px;">
-  <img src="Images/MCP exoskeleton kinematic chain.jpg" width="300"  style="margin-right: 20px;">
-  <img src="Images/PIP exoskeleton kinematic chain.jpg" width="300"  style="margin-right: 20px;">
+  <img src="Images/MCP exoskeleton kinematic chain.jpg" width="300"  >
+  <img src="Images/PIP exoskeleton kinematic chain.jpg" width="300" >
 
 </p>
 
@@ -77,7 +77,7 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 **The CAD model of the hand exoskeleton showing the design for the MCP and PIP closed-loop chains**
 <p align="center">
 
-  <img src="Images/CAD Hand EXoskeleton.png" width="400" ;">
+  <img src="Images/CAD Hand EXoskeleton.png" width="400">
 </p>
 
 
