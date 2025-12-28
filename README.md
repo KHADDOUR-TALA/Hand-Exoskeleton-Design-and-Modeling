@@ -35,23 +35,17 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 
 ### 2. Exoskeleton Design
 
-<table>
-  <tr>
-    <td>
 
-     
 | Joint                       | Mechanism         | Function          |
 | ---------------------------- | ------------- | --------------------- |
 | **MCP**                     | P3RP2R closed chain    |	Flex/Ext + Abd/Add       |
 | **PIP**                   | 4R closed chain        | closed chain	Flex/Ext        |
 | **DIP**                | 	Biomechanically coupled | Passive        |
 
-    </td>
-    <td>
-      <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.png" width="300"  style="margin-right: 20px;">
-    </td>
-  </tr>
-</table>
+  </td>
+<td>
+  <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.png" width="300"  style="margin-right: 20px;">
+</td>
 
 
 
