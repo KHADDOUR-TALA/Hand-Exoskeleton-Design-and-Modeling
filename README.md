@@ -42,7 +42,7 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 | **DIP**                | 	Biomechanically coupled | Passive        |
 
 
-## MCP exoskeleton kinematic chain
+**MCP exoskeleton kinematic chain**
 
 <p align="center">
 
@@ -56,22 +56,15 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 ## Modeling and Analysis
 
 ### Kinematic and Dynamics
-**DH Parameters:** Complete tables for human fingers and exoskeleton joints
+- Developed accurate **kinematic and dynamic models** of human fingers and the exoskeleton.
 
-**Transformation Matrices:** Homogeneous transformations for position/orientation
+- **Forward and inverse kinematics** derived using standard DH parameters, ensuring alignment with physiological joint limits.
 
-**Inverse Kinematics:** Geometric methods with physiological angle constraints
+- **Dynamic analysis** includes kinetic, gravitational, and elastic energies, with Euler-Lagrange equations for joint torques.
 
-**Loop Closure Equations:** For MCP and PIP closed-chain mechanisms
+- **Manipulability** analysis performed to optimize smooth motion, reduce motor torque, and ensure safe rehabilitation.
 
-## Dynamic Analysis
-**Energy Formulations:** Kinetic, potential (gravitational + elastic), and dissipation
-
-**Motion Equations:** Euler-Lagrange derivation with joint torques
-
-**Virtual Work Principle:** Force/torque transmission analysis
-
-**Manipulability Measures:** Local and global kinematic/dynamic performance metrics
+- Full CAD models of the **human hand and exoskeleton** created and exported for simulation in Simscape.
 
 
 **The developed CAD model of the human hand** 
