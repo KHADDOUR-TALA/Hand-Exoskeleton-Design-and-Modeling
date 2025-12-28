@@ -16,25 +16,22 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 ## Abbreviations 
 
 **DIP**_Distal Inter-Phalangeal  
-**HES**_Hand Exo-Skeleton  
-**MCP**_Meta-Carpo-Phalangeal
-**P**_Prismatic joint 
-
-**PIP**_Proximal Inter-Phalangeal 
-
-**R**_Revolute joint 
-
-**ROM**_Range of Motion 
+**HES**_Hand Exo-Skeleton.
+**MCP**_Meta-Carpo-Phalangeal.
+**P**_Prismatic joint. 
+**PIP**_Proximal Inter-Phalangeal. 
+**R**_Revolute joint. 
+**ROM**_Range of Motion. 
 
 ##  System Architecture
  ### 1. Human Hand Modeling
-  ** 5 digits, anatomically accurate DOF
+  *** 5 digits, anatomically accurate DOF
 
-  ** Full ROM constraints, intra-finger & inter-finger coupling
+  *** Full ROM constraints, intra-finger & inter-finger coupling
 
- ** DH-based kinematics and Euler-Lagrange dynamics
+ *** DH-based kinematics and Euler-Lagrange dynamics
 
- ** Stiffness & damping modeling for impaired joints
+ *** Stiffness & damping modeling for impaired joints
 
 
 ### 2. Exoskeleton Design
@@ -45,7 +42,9 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 | **DIP**                | 	Biomechanically coupled | Passive        |
 <p align="center">
 
-  <img src="Images/Kinematic chain of the index and thumb fingers.jpg" width="300"  style="margin-right: 20px;">
+  <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.jpg" width="300"  style="margin-right: 20px;">
+  <img src="Images/MCP exoskeleton kinematic chain.jpg" width="300"  style="margin-right: 20px;">
+  <img src="Images/PIP exoskeleton kinematic chain.jpg" width="300"  style="margin-right: 20px;">
 
 </p>
 
@@ -95,28 +94,4 @@ The optimizatipon of link ligth is done using ** Genetic algorithms**guided by m
 | L2=19.61                   | L8=30        | 
 | L3=41.83               |       | 
 | L4=17.4               | 	 | 
-## Project Structure
-
-```
-differential_robot/
-├── media/
-│   └── Demo.gif          
-├── launch/
-│   └── rviz.launcher          # Main launch file for visualization
-├── robot/
-│   ├── materials.xacro        # material definitions for robot components
-│   └── robot.xacro            # Complete robot URDF model
-├── rviz/
-│   └── robot.rviz             # RViz configuration preset
-├──sr c/
-│   ├── arduino.py             # Arduino motor controller emulator
-│   ├── broad_lidar.py         # Simulated LiDAR publisher
-│   ├── broad_robot.py         # Main navigation controller
-│   ├── client.py              # Service client for pose reset
-│   └── lidar_data.py          # Maze visualization publisher
-├── srv/
-│   └── reset.srv              # Custom service for pose reset
-└── Images
-```
-
 
