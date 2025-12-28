@@ -52,8 +52,8 @@ Natural ROM boundaries ensuring patient safety
 **Dynamic Modeling:** Euler-Lagrange formulation including stiffness and damping factors
 <p align="center">
 
-  <img src="Images/Human Hand CAD1.PNG" width="300" height="200" style="margin-right: 20px;">
-  <img src="Images/Human Hand CAD2.PNG" width="300" height="200">
+  <img src="Images/Human Hand CAD1.PNG" width="300" height="300" style="margin-right: 20px;">
+  <img src="Images/Human Hand CAD2.PNG" width="300" height="300">
 </p>
 
 
