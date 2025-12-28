@@ -34,34 +34,37 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 </p>
 
 ### 2. Exoskeleton Design
-<table>
+<table style="border: none; border-collapse: collapse;">
   <tr>
-    <td>
-      <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.png" width="300">
-    </td>
-    <td style="padding-left: 20px;">
-      <table>
+    <!-- Left cell for table -->
+    <td style="border: none; padding: 0; padding-right: 20px; vertical-align: top;">
+      <table style="border: 1px solid #ddd; border-collapse: collapse;">
         <tr>
-          <th>Joint</th>
-          <th>Mechanism</th>
-          <th>Function</th>
+          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Joint</th>
+          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Mechanism</th>
+          <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Function</th>
         </tr>
         <tr>
-          <td><strong>MCP</strong></td>
-          <td>P3RP2R closed chain</td>
-          <td>Flex/Ext + Abd/Add</td>
+          <td style="border: 1px solid #ddd; padding: 8px;"><strong>MCP</strong></td>
+          <td style="border: 1px solid #ddd; padding: 8px;">P3RP2R closed chain</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">Flex/Ext + Abd/Add</td>
         </tr>
         <tr>
-          <td><strong>PIP</strong></td>
-          <td>4R closed chain</td>
-          <td>Flex/Ext</td>
+          <td style="border: 1px solid #ddd; padding: 8px;"><strong>PIP</strong></td>
+          <td style="border: 1px solid #ddd; padding: 8px;">4R closed chain</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">Flex/Ext</td>
         </tr>
         <tr>
-          <td><strong>DIP</strong></td>
-          <td>Biomechanically coupled</td>
-          <td>Passive</td>
+          <td style="border: 1px solid #ddd; padding: 8px;"><strong>DIP</strong></td>
+          <td style="border: 1px solid #ddd; padding: 8px;">Biomechanically coupled</td>
+          <td style="border: 1px solid #ddd; padding: 8px;">Passive</td>
         </tr>
       </table>
+    </td>
+    
+    <!-- Right cell for image -->
+    <td style="border: none; padding: 0; vertical-align: top;">
+      <img src="Images/P3RP2R chain for MCP hand exoskeleton with human hand.png" width="350">
     </td>
   </tr>
 </table>
