@@ -2,7 +2,7 @@
 This repository presents the design and modeling of a **rehabilitation hand exoskeleton** aimed at restoring finger movements in post-stroke patients. It includes comprehensive kinematic and dynamic analysis of both the human hand fingers and the proposed design of the exoskeleton. The CAD design was conducted using **SolidWorks** and then exported to **MATLAB**, and the simulation was conducted with  **Simscape**.The repositpry also combines **manipulability** analysis and optomization using **Genetic Algorithms** to achive safety in human-robot interaction.
 
 <p align="center">
-  <img src="Images/simulation.gif" width="700">
+  <img src="Images/Simulation.gif" width="700">
 </p>
 
 ## Key Contributions
