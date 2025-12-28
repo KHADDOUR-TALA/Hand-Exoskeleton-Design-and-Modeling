@@ -45,8 +45,8 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 | **DIP**                | 	Biomechanically coupled | Passive        |
 <p align="center">
 
-  <img src="Images/Human Hand CAD1.PNG" width="300" height="300" style="margin-right: 20px;">
-  <img src="Images/Human Hand CAD2.PNG" width="300" height="300">
+  <img src="Images/Kinematic chain of the index and thumb fingers.jpg" width="300"  style="margin-right: 20px;">
+
 </p>
 
 ## Modeling and Analysis
@@ -71,14 +71,14 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 **The developed CAD model of the human hand** 
 <p align="center">
 
-  <img src="Images/Human Hand CAD1.PNG" width="300" height="300" style="margin-right: 20px;">
-  <img src="Images/Human Hand CAD2.PNG" width="300" height="300">
+  <img src="Images/Human Hand CAD1.PNG" width="200" height="200" style="margin-right: 20px;">
+  <img src="Images/Human Hand CAD2.PNG" width="200" height="200">
 </p>
 
 **The CAD model of the hand exoskeleton showing the design for the MCP and PIP closed-loop chains**
 <p align="center">
 
-  <img src="Images/CAD Hand EXoskeleton.PNG" width="300" style="margin-right: 20px;">
+  <img src="Images/CAD Hand EXoskeleton.PNG" width="300" ;">
 </p>
 
 
@@ -87,11 +87,6 @@ Manipulability measures how well the exoskeleton can move and apply force to the
 
 High manipulability → smoother motion , lower motor torque and safer rehabilitation. 
 The optimizatipon of link ligth is done using ** Genetic algorithms**guided by manipulability analysis. 
-<p align="center">
-
-  <img src="Images/Human Hand CAD1.PNG" width="300" height="300" style="margin-right: 20px;">
-  <img src="Images/Human Hand CAD2.PNG" width="300" height="300">
-</p>
 
 ## Project Structure
 
