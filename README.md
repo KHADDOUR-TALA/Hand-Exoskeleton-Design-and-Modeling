@@ -1,4 +1,4 @@
-# Hand-Exoskeleton Design, Modeling and Optimization
+<img width="222" height="81" alt="image" src="https://github.com/user-attachments/assets/44689107-e928-4c0c-bf00-ed8bce2d7f36" /># Hand-Exoskeleton Design, Modeling and Optimization
 This repository presents the design and modeling of a **rehabilitation hand exoskeleton** aimed at restoring finger movements in post-stroke patients. It includes comprehensive kinematic and dynamic analysis of both the human hand fingers and the proposed design of the exoskeleton. The CAD design was conducted using **SolidWorks** and then exported to **MATLAB**, and the simulation was conducted with  **Simscape**.The repositpry also combines **manipulability** analysis and optomization using **Genetic Algorithms** to achive safety in human-robot interaction.
 
 <p align="center">
@@ -78,7 +78,7 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 **The CAD model of the hand exoskeleton showing the design for the MCP and PIP closed-loop chains**
 <p align="center">
 
-  <img src="Images/CAD Hand EXoskeleton.PNG" width="300" ;">
+  <img src="Images/CAD Hand EXoskeleton.png" width="400" ;">
 </p>
 
 
@@ -87,7 +87,14 @@ Manipulability measures how well the exoskeleton can move and apply force to the
 
 High manipulability → smoother motion , lower motor torque and safer rehabilitation. 
 The optimizatipon of link ligth is done using ** Genetic algorithms**guided by manipulability analysis. 
+**Optimization Results**
 
+| MCP Chain(mm)                       | PIP Chain(mm)          |
+| ---------------------------- | ------------- |
+| L1=11.33                     | L7=30    |
+| L2=19.61                   | L8=30        | 
+| L3=41.83               |       | 
+| L4=17.4               | 	 | 
 ## Project Structure
 
 ```
