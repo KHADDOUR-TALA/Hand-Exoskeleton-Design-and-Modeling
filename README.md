@@ -31,6 +31,10 @@ This repository presents the design and modeling of a **rehabilitation hand exos
 
 Thumb: 3 phalanges, 4 articulations
 
+<p align="center">
+ <img src="Images/Kinematic chain of the index and thumb fingers.jpg" width="400">
+</p>
+
 **Joint Constraints:** Natural Range of Motion (ROM) limits for each joint
 Natural ROM boundaries ensuring patient safety
 
@@ -47,9 +51,9 @@ Natural ROM boundaries ensuring patient safety
 
 **Dynamic Modeling:** Euler-Lagrange formulation including stiffness and damping factors
 <p align="center">
-  <img src="Images/Kinematic chain of the index and thumb fingers.jpg" width="250">
-  <img src="Images/Human Hand CAD1.PNG" width="250">
-  <img src="Images/Human Hand CAD2.PNG" width="250">
+ 
+  <img src="Images/Human Hand CAD1.PNG" width="300">
+  <img src="Images/Human Hand CAD2.PNG" width="300">
 </p>
 
 
